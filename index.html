@@ -2,20 +2,32 @@
     <head>
         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body >
-        
-        <div id="personalInfo" class="personal">
-            <div>
-                <h1>Hiii</h1>
+        <div class="container">
+            <div class="row h-100 p-2 pb-4">
+                <div id="personalInfo" class="col mx-1">   
+                    <div class=" row border border-primary rounded h-50 ">
+                                
+                    </div> 
+                    <div class="row border border-primary rounded mt-1 h-50">
+                            
+                    </div> 
+                </div>
+                <div class="col border border-primary rounded ">
+                    <div id="currentClock" class="clock text-nowrap" onload="currentTime"></div>
+                </div>
+                <div class="col mx-1">
+                    <div class="row border border-primary rounded h-50">
+                                
+                    </div> 
+                    <div class="row border border-primary rounded mt-1 h-50">
+                           
+                    </div> 
+                </div>
             </div>
-        </div>
-        <div id="timer" class="timer"></div>
-        <div class="cCenter">
-            <div id="currentClock" class="clock" onload="currentTime"></div>
-        </div>
-        <div id="stopWatch" class="stopWatch"></div>
-        <div id="schedule" class="schedule"></div>
+        </div>  
         <script src="./script.js"></script>
         
     </body>

@@ -1,27 +1,21 @@
 body{
-    background: black;
-    font-family: 'Orbitron', sans-serif;
+    background: black !important;
+    font-family: 'Orbitron', sans-serif !important;
 }
 .clock{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    
+    top: 50% ;
+    left: 50% ;
     transform: translateX(-50%) translateY(-50%);
     color: #17D4FE;
-    font-size: 60px;
+    
     letter-spacing: 7px;
 }
 .cCenter{
-    float: left;
-    width: 70%;
+    
 
 }
-.personalInfo{
-    float: left;
-    background: #17D4FE;
-    color: blue;
-    width: 30%;
-    height: 50%;
-    padding: 15px;
-  border: 1px solid red;
+.personal{
+    
 }
