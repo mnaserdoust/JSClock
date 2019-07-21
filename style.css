@@ -1,6 +1,7 @@
 body{
     background: black !important;
     font-family: 'Orbitron', sans-serif !important;
+    font-size: 29px !important;
 }
 .clock{
     position: absolute;
@@ -12,10 +13,21 @@ body{
     
     letter-spacing: 7px;
 }
-.cCenter{
-    
-
+.break{
+    font-size: x-small !important;
 }
+select{
+    font-size: x-small !important;
+}
+.center-block {
+    
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        display:block;
+     
+ }
 .personal{
     
 }
